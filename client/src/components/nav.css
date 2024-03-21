@@ -1,0 +1,46 @@
+.size {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.all-mon {
+    width: 100vw;
+}
+  
+.sizing {
+
+    padding: 0px !important;
+    padding-left: 0px !important;
+}
+  
+.margin-r {
+    margin-right: 0px;
+}
+
+.custom-button-style {
+    background-color: #49a078 !important; 
+    border-color: #49a078 !important;
+    color: #EBEBEB !important; 
+  }
+
+.text-color {
+    color: #222222 !important;
+}
+.custom-logged-button:focus:not(:focus-visible),
+.custom-logged-button:hover,
+.custom-logged-button {
+    background-color: transparent !important; 
+    border-color: #222222 !important;
+    color: #222222 !important; 
+    border: none;
+
+}
+
+.list-dropdown {
+    border: none;
+    background-color: transparent;
+  }
+
+.signle-element:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}

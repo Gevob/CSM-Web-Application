@@ -1,0 +1,60 @@
+.setborder {
+    border: 1px solid #222222; 
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 150px;
+  }
+
+  .label-container {
+    align-self: flex-start;
+  }
+
+  .value-container {
+    align-self: center;
+  }
+
+
+  .custom-back-button:hover,
+.custom-back-button {
+    background-color: transparent; 
+    border-color: #222222 !important;
+    color: #222222 !important; 
+}
+
+.deleteButton:focus:not(:focus-visible),
+.deleteButton:hover,
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222222;
+}
+
+.deleteButton:hover{
+  background-color: white;
+}
+
+.editButton:focus:not(:focus-visible),
+.editButton:hover,
+.editButton {
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222222;
+}
+
+.editButton:hover{
+  background-color: white;
+}

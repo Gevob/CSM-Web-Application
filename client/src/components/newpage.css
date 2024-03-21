@@ -1,0 +1,113 @@
+.custom-textarea {
+    min-height: 127px;
+    width: 600px;
+    
+  }
+
+  .custom-header {
+    height: 107px; 
+    width: 600px;
+    
+  }
+
+  .custom-imagine {
+    height: 100px; 
+    width: 600px;
+    
+  }
+  
+.custom-text{
+  width: 300px;
+}
+
+.custom-select{
+  width: 600px;
+}
+.custom-add-button:focus:not(:focus-visible),
+.custom-add-button:hover,
+.custom-add-button {
+    background-color: transparent; 
+    border-color: #222222 !important;
+    color: #222222 !important; 
+}
+
+.button-size {
+    height: 38px;
+    width: 77px;
+}
+
+.setdrag {
+  cursor: move;
+  border: 1px solid #222222; 
+  margin-top: -1px;
+  margin-left: -1px;
+  
+  
+}
+.deleteButton:focus:not(:focus-visible),
+.deleteButton:hover,
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteButton:hover{
+  background-color: white;
+}
+
+.customX{
+  color: #222222;
+}
+
+.position-inherit {
+  position: inherit;
+}
+
+.custom-change-button:focus:not(:focus-visible),
+.custom-change-button:hover,
+.custom-change-button {
+    background-color: transparent !important; 
+    border-color: #222222 !important;
+    color: #222222 !important; 
+    border: none;
+    height:33px;
+    width: min-content;
+    
+}
+
+.list-dropdown {
+    border: none;
+    background-color: #ebebeb;
+  }
+
+  .custom-option:hover{
+    background-color: #49A078;
+  }
+  .custom-option.selected-option {
+    background-color: #49A078;
+  }
+
+  .custom-button-style {
+    background-color: #49a078 !important; 
+    border-color: #49a078 !important;
+    color: #EBEBEB !important; 
+}
+
+.positioning{
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 1.5rem 1.5rem 0;
+}
+
+.resizable-container textarea {
+  flex-grow: 1;
+  resize: vertical;
+}

@@ -1,0 +1,33 @@
+.slide-from-left {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInLeftAnimation 1s forwards;
+  }
+  
+  @keyframes slideInLeftAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+ .custom {
+  height: 450px;
+ }
+
+ .overflow-hidden {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.custom-size{
+  width: inherit;
+}
+
+.custom-banner {
+  margin-top: -110px;
+}

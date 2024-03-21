@@ -1,0 +1,34 @@
+.all-mon {
+    width: 100vw;
+}
+
+.all-screen {
+    width: 100%;
+    height: 100%;
+}
+
+.custom-button-style {
+    background-color: #49a078 !important; 
+    border-color: #49a078 !important;
+    color: #EBEBEB !important; 
+}
+
+.no-outline:focus {
+    background-color: #EBEBEB; /* Colore di sfondo desiderato */
+    box-shadow: 0 0 5px #49a078;
+}
+.custom-back-button:focus:not(:focus-visible),
+
+.custom-back-button:hover,
+.custom-back-button {
+    background-color: transparent; 
+    border-color: #222222 !important;
+    color: #222222 !important; 
+}
+
+.button-size {
+    height: 38px;
+    width: 77px;
+}
+
+
